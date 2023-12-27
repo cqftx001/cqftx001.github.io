@@ -1,1 +1,176 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome to Qifan's Website</title>
+    <link rel="stylesheet" type="text/css" href="header.css">
+    <link rel="stylesheet" type="text/css" href="content.css">
+    <style>
+        p{
+            text-align: left;
+            margin: 0;
+            padding: 0px 0;
+        }
+
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            display: flex;
+            align-items: flex-start; /* 从顶部开始显示内容 */
+            justify-content: center; /* 水平居中 */
+        }
+
+        .resume-container {
+            width: 794px; /* A4纸宽度的像素值 */
+            margin: 10px auto; /* 上下保留一些空间，并在屏幕上水平居中 */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* 可选的，为容器添加阴影效果 */
+            background: white; /* 设置背景颜色为白色 */
+            padding: 20px; /* 根据需要设置内边距 */
+            box-sizing: border-box; /* 边框和内边距包含在宽度内 */
+        }
+    </style>
+</head>
+<hr>
+
+<body>
+<div class="resume-container">
+    <header>
+
+        <h1 style="text-align: center; font-weight: bold; font-style: italic; margin-bottom: 5px;">Resume</h1>
+        <h1 style="text-align: center; font-weight: bold; font-style: italic; font-size: smaller; margin-top: 5px;">Qifan Chen</h1>
+
+        <!-- <dt><a href = "file:///C:/Users/11190/Desktop/frame2.HTML" target="_blank"><font face = "Times New Roman""><b>Qifan Chen -->
+        <section id="Basic Information">
+            <h3 style="font-weight: bold; font-style: italic; margin-bottom: 5px; margin-left: 10px;">Basic Information</h3>
+
+            <hr style="color:grey; height:3px; width:738px;background-color:lightslategrey;">
+
+         <div style="display:flex; justify-content: space-between;">
+                <span style="margin-left: 10px">Los Angeles, CA 91803</span>
+                <span style="margin-left: 10px">Phone: +1 2133080507</span>
+            </div>
+            <div style="display:flex; justify-content: space-between;">
+                <span style="margin-left: 10px">1102 Edith Ave</span>
+                <span style="margin-left: 10px">Email: qifanc@usc.edu</span>
+            </div>
+            <hr style="color:grey; height:1px; width:738px;background-color:lightslategrey;">
+        </section>
+    </header>
+
+    <section id="Education">
+        <h3 style="font-weight: bold; font-style: italic; margin-bottom: 0px; margin-left: 10px;">Education Background</h3>
+        <hr style="color:grey; height:3px; width:738px;background-color:lightslategrey;">
+
+        <div style="display:flex; justify-content: space-between;">
+            <span style="margin-left: 10px; font-weight:bold">University of Ningxia</span>
+            <span style="margin-left: 10px; font-weight:bold">09/2017-07/2021</span>
+        </div>
+        <div style="display:flex; justify-content: space-between; margin-bottom: 5px">
+            <span style="margin-left: 12px;">Bachelor of Engineering in New Energy Materials and Devices</span>
+            <span>Major GPA: 3.51</span>
+        </div>
+
+        <ul style="margin-top:5px; margin-bottom: 5px">
+            <li style="margin-left:20px; margin-bottom: 0px;">Second-class Scholarship in 09/2018 & 09/2019 & 09/2020</li>
+            <li style="margin-left:20px; margin-bottom: 0px;">Skills: MATLAB, C</li>
+        </ul>
+
+
+
+        <div style="display:flex; justify-content: space-between;">
+            <span style="margin-left: 10px; font-weight:bold">University of Southern California</span>
+            <span style="margin-left: 10px; font-weight:bold">01/2022-12/2023</span>
+        </div>
+        <div style="display:flex; justify-content: space-between; margin-bottom: 5px">
+            <span style="margin-left: 12px;">Master of Science in Electrical Engineering</span>
+            <span>Major GPA: 3.25</span>
+        </div>
+
+        <ul style="margin-top:5px; margin-bottom: 5px">
+            <li style="margin-left:20px; margin-bottom: 0px;">Skills: Java; C++; Python; Spring Boot Framework; CSS/JS</li>
+        </ul>
+        <hr style="color:grey; height:1px; width:738px;background-color:lightslategrey;">
+    </section>
+
+
+
+    <section id="Skills">
+        <h3 style="font-weight: bold; font-style: italic; margin-bottom: 0px; margin-left: 10px;">Skills</h3>
+        <hr style="color:grey; height:3px; width:738px;background-color:lightslategrey;">
+
+        <ul style="margin-top:5px; margin-bottom: 5px; font-weight: bold">
+            <li style="margin-left:20px; margin-bottom: 0px;">Framework: <span style="font-weight: normal;margin-left: 5px">SpringBoot</span></li>
+            <li style="margin-left:20px; margin-bottom: 0px;">Database:  <span style="font-weight: normal;margin-left: 5px">PostgreSQL, H2</span></li>
+            <li style="margin-left:20px; margin-bottom: 0px;">Tool Experiences: <span style="font-weight: normal;margin-left: 5px">Selenium, Bazel, Thymeleaf, Mybatis, Postman, REST API, Address Sanitizer</span></li>
+            <li style="margin-left:20px; margin-bottom: 0px;">Language: <span style="font-weight: normal;margin-left: 5px">Chinese(Native Speaker), English(Fluent)</span></li>
+        </ul>
+
+        <hr style="color:grey; height:1px; width:738px;background-color:lightslategrey;">
+    </section>
+
+    <section id="Project Experiences">
+        <h3 style="font-weight: bold; font-style: italic; margin-bottom: 0px; margin-left: 10px;">Project Experiences</h3>
+        <hr style="color:grey; height:3px; width:738px;background-color:lightslategrey;">
+        <!-- 第一个项目-->
+        <div style="display:flex; justify-content: space-between;">
+            <span style="margin-left: 10px; font-weight:bold">Optimised ITER Size Central Solenoid(CS) Design</span>
+            <span style="margin-left: 10px; font-weight:bold">05/2020-07/2020</span>
+        </div>
+        <ul style="margin-top:5px; margin-bottom: 5px;">
+            <li style="margin-left:20px; margin-bottom: 0px;">Analyze the mechanical structure of CS Coil with MATLAB and simulate the magnetic field of CS Coil for FEA analysis with COMSOL</li>
+            <li style="margin-left:20px; margin-bottom: 0px;">Use scikit-learn, matplotlib, numpy to perform data preprocessing and visualization on existing CS data.</li>
+            <li style="margin-left:20px; margin-bottom: 0px;">Conduct precise calculations for the CS Coil's inner and outer diameters, along with the requisite operation current and voltage, enhancing design accuracy. </li>
+        </ul>
+        <!-- 第二个项目-->
+        <div style="display:flex; justify-content: space-between;">
+            <span style="margin-left: 10px; font-weight:bold">Web cloud Storage Application</span>
+            <span style="margin-left: 10px; font-weight:bold">08/2022-12/2022</span>
+        </div>
+        <ul style="margin-top:5px; margin-bottom: 5px;">
+            <li style="margin-left:20px; margin-bottom: 0px;">Develop a Spring Boot based cloud storage application enhancing user experience with personal information management tools.</li>
+            <li style="margin-left:20px; margin-bottom: 0px;">Implement a Spring Security authentication system, integrating dedicated Hash Service for password encryption.</li>
+            <li style="margin-left:20px; margin-bottom: 0px;">Develop Thymeleaf based front-end for real-time content updates.</li>
+            <li style="margin-left:20px; margin-bottom: 0px;">Implement MyBatis data mappers to streamline database operations.</li>
+            <li style="margin-left:20px; margin-bottom: 0px;">Craft Selenium test cases for critical user operations.</li>
+
+        </ul>
+        <!-- 第三个项目-->
+        <div style="display:flex; justify-content: space-between;">
+            <span style="margin-left: 10px; font-weight:bold">Vehicle API Development</span>
+            <span style="margin-left: 10px; font-weight:bold">01/2023-03/2023</span>
+        </div>
+        <ul style="margin-top:5px; margin-bottom: 5px;">
+            <li style="margin-left:20px; margin-bottom: 0px;">Developed and registered a Pricing Service as a microservice with a Eureka server environment, and integrating it seamlessly into the larger microservice architecture. </li>
+            <li style="margin-left:20px; margin-bottom: 0px;">Employ Swagger for detailed API documentation.</li>
+            <li style="margin-left:20px; margin-bottom: 0px;">Using Maven for streamlined development processes.</li>
+            <li style="margin-left:20px; margin-bottom: 0px;">Plan integrations for Google Maps, Prcing Services and Vehicle APIs to achieve full compliance with RESTful service specifications.</li>
+        </ul>
+
+        <!-- 第四个项目-->
+        <div style="display:flex; justify-content: space-between;">
+            <span style="margin-left: 10px; font-weight:bold">Mathematical Pattern Recognition</span>
+            <span style="margin-left: 10px; font-weight:bold">07/2023-08/2023</span>
+        </div>
+        <ul style="margin-top:5px; margin-bottom: 5px;">
+            <li style="margin-left:20px; margin-bottom: 0px;">Use machine learning methods to process and analyze the existing human motion data, with a focus on action pattern recognition.</li>
+            <li style="margin-left:20px; margin-bottom: 0px;">Conduct comprehensive preprocessing of exiting human motion datasets using Pandas and Numpy. Implement missing value imputation and outlier detection to ensuring data integrity.</li>
+            <li style="margin-left:20px; margin-bottom: 0px;">Use scikit-learn for data transformation and PCA for feature extraction and dimension reduction. </li>
+            <li style="margin-left:20px; margin-bottom: 0px;">Employ sklearn to calculate loss functions and other evaluation metrics to evaluate model accuracy and generalization capabilities. </li>
+        </ul>
+
+
+
+        <hr style="color:grey; height:1px; width:738px;background-color:lightslategrey;">
+    </section>
+</div>
+
+<script>
+    window.onload = function() {
+        window.scrollTo(0, 0);
+    };
+</script>
+
+
+</body>
+</html>
